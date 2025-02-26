@@ -13,6 +13,7 @@ output "storage_name" {
 }
 
 output "security_rules" {
+<<<<<<< HEAD
   value = azurerm_network_security_group.nsg-example.security_rule.*
 }
 
@@ -51,4 +52,7 @@ output "resource_tag" {
 
 output "formated_tag_date" {
   value = local.tag_date
+=======
+  value = azurerm_network_security_group.nsg-example.name
+>>>>>>> b4470fabf335b3d76c0995052ef16f0c22b21487
 }
